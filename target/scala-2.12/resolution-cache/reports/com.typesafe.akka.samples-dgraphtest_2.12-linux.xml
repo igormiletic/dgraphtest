@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.typesafe.akka.samples"
+		module="dgraphtest_2.12"
+		revision="d0593989+20191104-2211"
+		conf="linux"
+		confs="compile, runtime, test, provided, optional, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20191104221105"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>

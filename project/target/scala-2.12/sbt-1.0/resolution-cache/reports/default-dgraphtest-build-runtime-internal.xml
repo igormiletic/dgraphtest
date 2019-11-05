@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="dgraphtest-build"
+		revision="0.1.0-SNAPSHOT"
+		extra-scalaVersion="2.12"
+		extra-sbtVersion="1.0"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20191104202846"/>
+	<dependencies>
+		<module organisation="com.github.gseitz" name="sbt-release">
+			<revision name="1.0.12" status="release" pubdate="20191016122629" resolver="sbt-plugin-releases" artresolver="sbt-plugin-releases" homepage="https://github.com/sbt/sbt-release" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="true" searched="true" default="false" conf="compile, default(compile)" position="22">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="1659" time="714" location="/Users/singer/.ivy2/cache/scala_2.12/sbt_1.0/com.github.gseitz/sbt-release/ivy-1.0.12.xml" searched="true" original-local-location="/Users/singer/.ivy2/cache/scala_2.12/sbt_1.0/com.github.gseitz/sbt-release/ivy-1.0.12.xml.original" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.gseitz/sbt-release/scala_2.12/sbt_1.0/1.0.12/ivys/ivy.xml"/>
+				<caller organisation="default" name="dgraphtest-build" conf="compile, runtime-internal, runtime, optional" rev="1.0.12" rev-constraint-default="1.0.12" rev-constraint-dynamic="1.0.12" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+					<artifact name="sbt-release" type="jar" ext="jar" status="successful" details="" size="157383" time="986" location="/Users/singer/.ivy2/cache/scala_2.12/sbt_1.0/com.github.gseitz/sbt-release/jars/sbt-release-1.0.12.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.gseitz/sbt-release/scala_2.12/sbt_1.0/1.0.12/jars/sbt-release.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.sbt" name="sbt-git">
+			<revision name="1.0.0" status="release" pubdate="20180427142045" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/sbt-git" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="13">
+				<license name="BSD-2-Clause" url="https://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="2602" time="0" location="/Users/singer/.ivy2/cache/scala_2.12/sbt_1.0/com.typesafe.sbt/sbt-git/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-git/scala_2.12/sbt_1.0/1.0.0/ivys/ivy.xml"/>
+				<caller organisation="default" name="dgraphtest-build" conf="compile, runtime-internal, runtime, optional" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+					<artifact name="sbt-git" type="jar" ext="jar" status="no" details="" size="66738" time="0" location="/Users/singer/.ivy2/cache/scala_2.12/sbt_1.0/com.typesafe.sbt/sbt-git/jars/sbt-git-1.0.0.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-git/scala_2.12/sbt_1.0/1.0.0/jars/sbt-git.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jgit" name="org.eclipse.jgit">
+			<revision name="4.9.0.201710071750-r" status="release" pubdate="20171008023910" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<license name="Eclipse Distribution License (New BSD License)"/>
+				<metadata-artifact status="no" details="" size="8895" time="0" location="/Users/singer/.ivy2/cache/org.eclipse.jgit/org.eclipse.jgit/ivy-4.9.0.201710071750-r.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.9.0.201710071750-r/org.eclipse.jgit-4.9.0.201710071750-r.pom"/>
+				<caller organisation="com.typesafe.sbt" name="sbt-git" conf="compile" rev="4.9.0.201710071750-r" rev-constraint-default="4.9.0.201710071750-r" rev-constraint-dynamic="4.9.0.201710071750-r" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="org.eclipse.jgit" type="jar" ext="jar" status="no" details="" size="2609327" time="0" location="/Users/singer/.ivy2/cache/org.eclipse.jgit/org.eclipse.jgit/jars/org.eclipse.jgit-4.9.0.201710071750-r.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/4.9.0.201710071750-r/org.eclipse.jgit-4.9.0.201710071750-r.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.2" status="release" pubdate="20121011205524" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4383" time="0" location="/Users/singer/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.pom"/>
+				<caller organisation="org.eclipse.jgit" name="org.eclipse.jgit" conf="default, compile, runtime, master" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="4.9.0.201710071750-r"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="26083" time="0" location="/Users/singer/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.3.6" status="release" pubdate="20141102144602" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9721" time="0" location="/Users/singer/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.3.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.pom"/>
+				<caller organisation="org.eclipse.jgit" name="org.eclipse.jgit" conf="default, compile, runtime, master" rev="4.3.6" rev-constraint-default="4.3.6" rev-constraint-dynamic="4.3.6" callerrev="4.9.0.201710071750-r"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="592008" time="0" location="/Users/singer/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.3.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.6" status="release" pubdate="20111203033826" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7802" time="0" location="/Users/singer/.ivy2/cache/commons-codec/commons-codec/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="4.3.6"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="232771" time="0" location="/Users/singer/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.3.3" status="release" pubdate="20141018135118" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7613" time="0" location="/Users/singer/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.pom"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="4.3.3" rev-constraint-default="4.3.3" rev-constraint-dynamic="4.3.3" callerrev="4.3.6"/>
+				<artifacts>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="282793" time="0" location="/Users/singer/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.3.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.3" status="release" pubdate="20130516220523" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10350" time="0" location="/Users/singer/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="4.3.6"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="62050" time="0" location="/Users/singer/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.javaewah" name="JavaEWAH">
+			<revision name="1.1.6" status="release" pubdate="20160427044037" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lemire/javaewah" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4315" time="0" location="/Users/singer/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/ivy-1.1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.1.6/JavaEWAH-1.1.6.pom"/>
+				<caller organisation="org.eclipse.jgit" name="org.eclipse.jgit" conf="default, compile, runtime, master" rev="1.1.6" rev-constraint-default="1.1.6" rev-constraint-dynamic="1.1.6" callerrev="4.9.0.201710071750-r"/>
+				<artifacts>
+					<artifact name="JavaEWAH" type="bundle" ext="jar" status="no" details="" size="165868" time="0" location="/Users/singer/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/bundles/JavaEWAH-1.1.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.1.6/JavaEWAH-1.1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jcraft" name="jsch">
+			<revision name="0.1.54" status="release" pubdate="20160903114216" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jcraft.com/jsch/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Revised BSD" url="http://www.jcraft.com/jsch/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3235" time="0" location="/Users/singer/.ivy2/cache/com.jcraft/jsch/ivy-0.1.54.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.pom"/>
+				<caller organisation="org.eclipse.jgit" name="org.eclipse.jgit" conf="default, compile, runtime, master" rev="0.1.54" rev-constraint-default="0.1.54" rev-constraint-dynamic="0.1.54" callerrev="4.9.0.201710071750-r"/>
+				<artifacts>
+					<artifact name="jsch" type="jar" ext="jar" status="no" details="" size="280515" time="0" location="/Users/singer/.ivy2/cache/com.jcraft/jsch/jars/jsch-0.1.54.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.sbt" name="sbt-native-packager">
+			<revision name="1.4.1" status="release" pubdate="20190830070146" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="2">
+				<metadata-artifact status="no" details="" size="3544" time="0" location="/Users/singer/.ivy2/cache/scala_2.12/sbt_1.0/com.typesafe.sbt/sbt-native-packager/ivy-1.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.12/sbt_1.0/1.4.1/ivys/ivy.xml"/>
+				<caller organisation="default" name="dgraphtest-build" conf="compile, runtime-internal, runtime, optional" rev="1.4.1" rev-constraint-default="1.4.1" rev-constraint-dynamic="1.4.1" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+					<artifact name="sbt-native-packager" type="jar" ext="jar" status="no" details="" size="847827" time="0" location="/Users/singer/.ivy2/cache/scala_2.12/sbt_1.0/com.typesafe.sbt/sbt-native-packager/jars/sbt-native-packager-1.4.1.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.12/sbt_1.0/1.4.1/jars/sbt-native-packager.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="1.1.1" status="release" pubdate="20180926193248" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3266" time="0" location="/Users/singer/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.1.1/scala-xml_2.12-1.1.1.pom"/>
+				<caller organisation="com.typesafe.sbt" name="sbt-native-packager" conf="compile" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.4.1"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="bundle" ext="jar" status="no" details="" size="553347" time="0" location="/Users/singer/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.1.1/scala-xml_2.12-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
+			<revision name="1.1.1" status="release" pubdate="20180609030928" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2929" time="0" location="/Users/singer/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.1/scala-parser-combinators_2.12-1.1.1.pom"/>
+				<caller organisation="com.typesafe.sbt" name="sbt-native-packager" conf="compile" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.4.1"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.12" type="bundle" ext="jar" status="no" details="" size="226573" time="0" location="/Users/singer/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.1/scala-parser-combinators_2.12-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="io_2.12">
+			<revision name="1.2.2" status="release" pubdate="20181005050811" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="BSD New" url="https://github.com/sbt/sbt/blob/0.13/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3274" time="0" location="/Users/singer/.ivy2/cache/org.scala-sbt/io_2.12/ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.2/io_2.12-1.2.2.pom"/>
+				<caller organisation="com.typesafe.sbt" name="sbt-native-packager" conf="compile" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.4.1"/>
+				<artifacts>
+					<artifact name="io_2.12" type="jar" ext="jar" status="no" details="" size="314296" time="0" location="/Users/singer/.ivy2/cache/org.scala-sbt/io_2.12/jars/io_2.12-1.2.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.2/io_2.12-1.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.java.dev.jna" name="jna-platform">
+			<revision name="4.5.0" status="release" pubdate="20170913222959" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/java-native-access/jna" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="10">
+				<license name="LGPL, version 2.1" url="http://www.gnu.org/licenses/licenses.html"/>
+				<license name="Apache License v2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2633" time="0" location="/Users/singer/.ivy2/cache/net.java.dev.jna/jna-platform/ivy-4.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.5.0/jna-platform-4.5.0.pom"/>
+				<caller organisation="org.scala-sbt" name="io_2.12" conf="default, compile, runtime, master" rev="4.5.0" rev-constraint-default="4.5.0" rev-constraint-dynamic="4.5.0" callerrev="1.2.2"/>
+				<artifacts>
+					<artifact name="jna-platform" type="jar" ext="jar" status="no" details="" size="2324986" time="0" location="/Users/singer/.ivy2/cache/net.java.dev.jna/jna-platform/jars/jna-platform-4.5.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.5.0/jna-platform-4.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.java.dev.jna" name="jna">
+			<revision name="4.5.0" status="release" pubdate="20170913222806" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/java-native-access/jna" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="9">
+				<license name="LGPL, version 2.1" url="http://www.gnu.org/licenses/licenses.html"/>
+				<license name="Apache License v2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2441" time="0" location="/Users/singer/.ivy2/cache/net.java.dev.jna/jna/ivy-4.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.0/jna-4.5.0.pom"/>
+				<caller organisation="net.java.dev.jna" name="jna-platform" conf="compile, runtime" rev="4.5.0" rev-constraint-default="4.5.0" rev-constraint-dynamic="4.5.0" callerrev="4.5.0"/>
+				<caller organisation="org.scala-sbt" name="io_2.12" conf="default, compile, runtime, master" rev="4.5.0" rev-constraint-default="4.5.0" rev-constraint-dynamic="4.5.0" callerrev="1.2.2"/>
+				<artifacts>
+					<artifact name="jna" type="jar" ext="jar" status="no" details="" size="1440500" time="0" location="/Users/singer/.ivy2/cache/net.java.dev.jna/jna/jars/jna-4.5.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.0/jna-4.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.swoval" name="apple-file-events">
+			<revision name="1.3.2" status="release" pubdate="20180411022417" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/swoval/swoval" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="8">
+				<license name="MIT" url="https://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2903" time="0" location="/Users/singer/.ivy2/cache/com.swoval/apple-file-events/ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/swoval/apple-file-events/1.3.2/apple-file-events-1.3.2.pom"/>
+				<caller organisation="org.scala-sbt" name="io_2.12" conf="default, compile, runtime, master" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.2.2"/>
+				<artifacts>
+					<artifact name="apple-file-events" type="jar" ext="jar" status="no" details="" size="23033" time="0" location="/Users/singer/.ivy2/cache/com.swoval/apple-file-events/jars/apple-file-events-1.3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/swoval/apple-file-events/1.3.2/apple-file-events-1.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.ant" name="ant">
+			<revision name="1.10.5" status="release" pubdate="20180710065403" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ant.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3574" time="0" location="/Users/singer/.ivy2/cache/org.apache.ant/ant/ivy-1.10.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/ant/ant/1.10.5/ant-1.10.5.pom"/>
+				<caller organisation="com.typesafe.sbt" name="sbt-native-packager" conf="compile" rev="1.10.5" rev-constraint-default="1.10.5" rev-constraint-dynamic="1.10.5" callerrev="1.4.1"/>
+				<artifacts>
+					<artifact name="ant" type="jar" ext="jar" status="no" details="" size="2216652" time="0" location="/Users/singer/.ivy2/cache/org.apache.ant/ant/jars/ant-1.10.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/ant/ant/1.10.5/ant-1.10.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.ant" name="ant-launcher">
+			<revision name="1.10.5" status="release" pubdate="20180710065752" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ant.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2789" time="0" location="/Users/singer/.ivy2/cache/org.apache.ant/ant-launcher/ivy-1.10.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.10.5/ant-launcher-1.10.5.pom"/>
+				<caller organisation="org.apache.ant" name="ant" conf="default, compile, runtime, master" rev="1.10.5" rev-constraint-default="1.10.5" rev-constraint-dynamic="1.10.5" callerrev="1.10.5"/>
+				<artifacts>
+					<artifact name="ant-launcher" type="jar" ext="jar" status="no" details="" size="18827" time="0" location="/Users/singer/.ivy2/cache/org.apache.ant/ant-launcher/jars/ant-launcher-1.10.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.10.5/ant-launcher-1.10.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-compress">
+			<revision name="1.18" status="release" pubdate="20180813092452" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://commons.apache.org/proper/commons-compress/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="16134" time="0" location="/Users/singer/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.18.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.18/commons-compress-1.18.pom"/>
+				<caller organisation="com.typesafe.sbt" name="sbt-native-packager" conf="compile" rev="1.18" rev-constraint-default="1.18" rev-constraint-dynamic="1.18" callerrev="1.4.1"/>
+				<artifacts>
+					<artifact name="commons-compress" type="jar" ext="jar" status="no" details="" size="591748" time="0" location="/Users/singer/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.18.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.dwijnand" name="sbt-dynver">
+			<revision name="3.0.0" status="release" pubdate="20180316171048" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
+				<metadata-artifact status="no" details="" size="2978" time="0" location="/Users/singer/.ivy2/cache/scala_2.12/sbt_1.0/com.dwijnand/sbt-dynver/ivy-3.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.dwijnand/sbt-dynver/scala_2.12/sbt_1.0/3.0.0/ivys/ivy.xml"/>
+				<caller organisation="default" name="dgraphtest-build" conf="compile, runtime-internal, runtime, optional" rev="3.0.0" rev-constraint-default="3.0.0" rev-constraint-dynamic="3.0.0" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+					<artifact name="sbt-dynver" type="jar" ext="jar" status="no" details="" size="53516" time="0" location="/Users/singer/.ivy2/cache/scala_2.12/sbt_1.0/com.dwijnand/sbt-dynver/jars/sbt-dynver-3.0.0.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.dwijnand/sbt-dynver/scala_2.12/sbt_1.0/3.0.0/jars/sbt-dynver.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="global-plugins">
+			<revision name="0.0" status="integration" pubdate="20191104202844" resolver="inter-project" artresolver="inter-project" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="default" name="dgraphtest-build" conf="compile, runtime-internal, runtime, optional" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.7" status="release" pubdate="20180927103542" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2471" time="0" location="/Users/singer/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.pom"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12" conf="default, compile, runtime, master" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.1.1"/>
+				<caller organisation="org.scala-sbt" name="io_2.12" conf="default, compile, runtime, master" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.2.2"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.12" conf="default, compile, runtime, master" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="1.1.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5277511" time="0" location="/Users/singer/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.7.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,31 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/singer/git/dgraphtest/target/scala-2.12/dgraphtest_2.12-d0593989+20191104-2211-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/dgraph/models/DbActions.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/singer/git/dgraphtest/src/main/scala/org/dgraph/models/DbActions.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/dgraph/actors/ServiceActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/singer/git/dgraphtest/src/main/scala/org/dgraph/actors/ServiceActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/dgraph/ApplicationMain.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/singer/git/dgraphtest/src/main/scala/org/dgraph/ApplicationMain.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/dgraph/db/JsonUtil.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/singer/git/dgraphtest/src/main/scala/org/dgraph/db/JsonUtil.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/dgraph/db/DbManager.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/singer/git/dgraphtest/src/main/scala/org/dgraph/db/DbManager.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/dgraph/actors/DgraphActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/singer/git/dgraphtest/src/main/scala/org/dgraph/actors/DgraphActor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/dgraph/db/DgraphQueries.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/singer/git/dgraphtest/src/main/scala/org/dgraph/db/DgraphQueries.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/dgraph/models/Profiles.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/singer/git/dgraphtest/src/main/scala/org/dgraph/models/Profiles.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/dgraph/models/FetchUidsResponse.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/singer/git/dgraphtest/src/main/scala/org/dgraph/models/FetchUidsResponse.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/dgraph/models/DbCreation.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/singer/git/dgraphtest/src/main/scala/org/dgraph/models/DbCreation.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/dgraph/models/NodeKey.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/singer/git/dgraphtest/src/main/scala/org/dgraph/models/NodeKey.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/dgraph/service/MessagesService.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/singer/git/dgraphtest/src/main/scala/org/dgraph/service/MessagesService.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/dgraph/db/DBConnectionHolder.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/singer/git/dgraphtest/src/main/scala/org/dgraph/db/DBConnectionHolder.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/singer/git/dgraphtest/src/main/resources/application.conf[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

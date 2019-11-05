@@ -1,0 +1,34 @@
+POST http://localhost:9090/createNode
+Content-Type: application/json
+
+{
+  "ts": 1572531279,
+  "entities": [
+    {
+      "types": [
+        "UidIdentifier",
+        "Identifier"
+      ],
+      "code": "a442be5b16d208af276",
+      "attributes": [
+        {
+          "name": "target",
+          "value": "20min-de"
+        }
+      ],
+      "edges": [
+        {
+          "types": [
+            "Profile"
+          ],
+          "code": "proa442be5b16d208af276",
+          "edgeName": "identifierOf",
+          "facets": [],
+          "upsert": true
+        }
+      ]
+    }
+  ]
+}
+
+###
